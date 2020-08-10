@@ -5,6 +5,6 @@ We have to develop a simple application that search for an image from a folder i
 ### :white_check_mark: Our mechanism:
 - List all files in the folder.
 - take the word from the input form and search for it in the text file; if we find it we will display the image which has a relative with this file.
--if we complete our search for it, and we find    less than ten images we will search for the plural or singular of it, and relative images
+- if we complete our search for it, and we find    less than ten images we will search for the plural or singular of it, and relative images
 ### :camera: Screenshots
 ![](screenshoot/my_project1.PNG) |
