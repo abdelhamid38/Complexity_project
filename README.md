@@ -1,6 +1,6 @@
 # :unlock: Rapport of module Complexity 
 We have to develop a simple application that search for an image from a folder in our desktop. 
-### :warning: Firstly
+### :white_check_mark: Firstly
  we have to talk about our mechanism to resolve our problem, which is searching for a specific image using some hint writing in a text file with our description of these images.
 ### :white_check_mark: Our mechanism:
 - List all files in the folder.
