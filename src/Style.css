@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 2, 2020, 12:07:46 AM
+    Author     : hamid
+*/
+.Anchorpane {
+    
+    -fx-background-image:url('\complexity\28_16chicago.jpg');
+    
+}
+.hover_border:hover{
+    
+    -fx-border-color: #34e7e4e0;
+    -fx-border-width: 0px 4px 0px 8px;
+    -fx-background-color:#34e7e4e0;
+    -fx-cursor:hand;
+}
+.cursor_hand{
+    -fx-cursor:hand;
+}
+.humburger-line,.menu-text
+{
+    background-color: #fff;
+    color: #fff;
+}
+.exit .hover_border:hover{
+    
+    -fx-background-color:#ff0303;
+    
+}
+.scroll-pane {
+    -fx-background-color:transparent;
+}
+.scroll-pane:horizontal,.scrool-pane:vertical{
+    -fx-background-color:transparent;
+}
+.increment-button,.decrement-button{
+    -fx-background-color:transparent;
+    -fx-border-color:transparent;
+}
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius:5em;
+}
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb{
+    -fx-background-color:#0746A6;
+    -fx-background-radius:5em;
+}

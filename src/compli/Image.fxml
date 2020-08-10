@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="parent" minWidth="-Infinity" prefHeight="687.0" prefWidth="1039.0" style="-fx-border-width: 5;-fx-background-image:url('C:\Users\hamid\Documents\NetBeansProjects\Compli\src\complexity\28_16chicago.jpg'); -fx-border-color: #0746A6; -fx-background-color: #fff;" styleClass="Anchorpane" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="compli.controller">
+   <children>
+      <VBox layoutX="10.0" layoutY="73.0" prefHeight="610.0" prefWidth="1004.0" spacing="15.0" style="-fx-background-color: transparent;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="63.0">
+         <children>
+            <ScrollPane prefHeight="624.0" prefWidth="1004.0" style="-fx-background-color: #ffffff;" stylesheets="@../Style.css">
+               <content>
+                  <FlowPane fx:id="flowpane" prefHeight="608.0" prefWidth="1015.0">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </FlowPane>
+               </content>
+               <styleClass>
+                  <String fx:value="scroll-bar" />
+                  <String fx:value="scroll-pane" />
+                  <String fx:value="thumb" />
+                  <String fx:value="track" />
+               </styleClass>
+            </ScrollPane>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="4.0" layoutY="4.0" prefHeight="63.0" prefWidth="1044.0" style="-fx-background-color: #0746A6;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXButton fx:id="search" alignment="TOP_RIGHT" contentDisplay="GRAPHIC_ONLY" layoutX="636.0" onMouseClicked="#search" prefHeight="60.0" prefWidth="71.0" style="-fx-background-color: #0646A7;" text="Button" textAlignment="RIGHT" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="297.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font size="1.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="SEARCH" size="50" textAlignment="CENTER" wrappingWidth="64.42856979370117" />
+               </graphic>
+            </JFXButton>
+            <TextField fx:id="Search" layoutX="337.0" prefHeight="60.0" prefWidth="299.0" promptText="Search" style="-fx-border-radius: 50%; -fx-background-color: #fff;" AnchorPane.rightAnchor="368.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Italic" size="28.0" />
+               </font>
+            </TextField>
+            <JFXButton fx:id="remove" alignment="TOP_CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="897.0" layoutY="-1.0" prefHeight="60.0" prefWidth="107.0" style="-fx-background-color: #0646A7;" styleClass="exit" stylesheets="@../exitstyle.css" text="Button" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font size="1.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fill="#fc0000" glyphName="TIMES" size="50" textAlignment="CENTER" />
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

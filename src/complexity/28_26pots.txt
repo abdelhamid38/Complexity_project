@@ -1,0 +1,7 @@
+Pots
+Plants
+Cactus
+Succulent
+Shelf
+Window
+Garden

@@ -1,0 +1,4 @@
+clothes
+Man
+Blue
+red

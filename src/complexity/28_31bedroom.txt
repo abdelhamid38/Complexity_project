@@ -1,0 +1,8 @@
+Bedroom
+Cupboard
+Bed
+Room
+Sofa
+Window
+Living
+Room
